@@ -1,0 +1,12 @@
+# ── Core deep learning ──────────────────────────────────────────
+# Install PyTorch with CUDA 12.1 (recommended for NVIDIA GPU users):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# CPU-only install:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch==2.12.1
+torchinfo
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+notebook==7.6.0
+ipykernel==7.3.0
